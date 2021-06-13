@@ -13,7 +13,7 @@ const RobotList = function () {
   let history = useHistory();
 
   useEffect(() => {
-    let url = "http://jsonplaceholder.typicode.com/users";
+    let url = "https://jsonplaceholder.typicode.com/users";
     setLoading(true);
     fetch(url)
       .then(function (respons) {

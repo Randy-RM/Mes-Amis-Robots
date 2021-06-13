@@ -11,7 +11,7 @@ const RobotDetail = function () {
   let minImage = 100;
 
   useEffect(() => {
-    let url = `http://jsonplaceholder.typicode.com/users/${robotId}`;
+    let url = `https://jsonplaceholder.typicode.com/users/${robotId}`;
     setLoading(true);
     fetch(url)
       .then(function (respons) {
